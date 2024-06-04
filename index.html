@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="question-container" class="container">
+        <div id="question-number"></div>
+        <div id="question"></div>
+        <div id="answer-buttons" class="btn-grid"></div>
+        <div id="time-left">Time Left: <span id="timer">10</span>s</div>
+        <button id="next-btn" class="btn hide">Next</button>
+    </div>
+    <div id="result-container" class="container hide">
+        <div id="score"></div>
+        <button id="restart-btn" class="btn">Restart Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
