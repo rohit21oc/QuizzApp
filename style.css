@@ -1,0 +1,56 @@
+/* styles.css */
+
+/* Container styles */
+.container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Hide element */
+.hide {
+    display: none;
+}
+
+/* Button styles */
+.btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Button grid styles */
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* Correct answer styles */
+.correct {
+    background-color: #28a745;
+}
+
+/* Wrong answer styles */
+.wrong {
+    background-color: #dc3545;
+}
+
+/* Selected answer styles */
+.selected {
+    border: 2px solid #007bff;
+}
